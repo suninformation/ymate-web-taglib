@@ -1,0 +1,24 @@
+*.DS_Store
+*.class
+*.settings/
+*.idea/
+
+*.project
+*.classpath
+*.iml
+
+bin/
+lib/
+target/
+
+node_modules/
+dist/
+package-lock.json
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+/build.num
+/MANIFEST.MF
