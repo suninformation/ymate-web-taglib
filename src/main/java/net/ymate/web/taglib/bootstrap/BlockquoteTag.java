@@ -38,7 +38,9 @@ public class BlockquoteTag extends ElementsTag {
     @Override
     protected StringBuilder doTagStart() {
         if (reverse) {
-            this.set_class(String.format("%s breadcrumb", StringUtils.trimToEmpty(this.get_class())));
+            this.set_class(String.format("%s blockquote-reverse", StringUtils.trimToEmpty(this.get_class())));
+        } else {
+            this.set_class(StringUtils.trimToEmpty(this.get_class()));
         }
         //
         return super.doTagStart();
